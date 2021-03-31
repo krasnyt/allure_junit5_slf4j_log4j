@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    AlgoTrader - Quantitative Trading Software
+   
+    Copyright (C) 2021 AlgoTrader AG - All rights reserved
+   
+    All information contained herein is, and remains the property of AlgoTrader AG.
+    The intellectual and technical concepts contained herein are proprietary to
+    AlgoTrader AG. Modification, translation, reverse engineering, decompilation,
+    disassembly or reproduction of this material is strictly forbidden unless prior
+    written permission is obtained from AlgoTrader AG
+   
+    For detailed terms and conditions consult the file LICENSE.txt or contact
+   
+    AlgoTrader AG
+    Letzigraben 89
+    8003 Zurich
+ -->
+
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="StdOut" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d %-5p [%t] [%c{1}] %m %n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="StdOut"/>
+        </Root>
+    </Loggers>
+</Configuration>
