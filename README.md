@@ -1,0 +1,1 @@
+# allure_junit5_slf4j_log4j
